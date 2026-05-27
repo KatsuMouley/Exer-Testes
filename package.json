@@ -1,0 +1,26 @@
+{
+  "name": "exer_testes",
+  "version": "1.0.0",
+  "description": "API de Gerenciamento de Tarefas com testes automatizados",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --runInBand --forceExit",
+    "test:verbose": "jest --runInBand --forceExit --verbose",
+    "test:coverage": "jest --runInBand --forceExit --coverage"
+  },
+  "keywords": ["api", "express", "jest", "supertest", "tarefas"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
